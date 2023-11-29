@@ -71,7 +71,8 @@ executable discobot
         base ^>=4.17.1.0,
         text,
         unliftio,
-        discord-haskell
+        discord-haskell,
+        dotenv
 
     -- Directories containing source files.
     hs-source-dirs:   app
