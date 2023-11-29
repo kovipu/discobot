@@ -19,6 +19,7 @@
           buildInputs = with pkgs; [
             haskellPackages.haskell-language-server
             haskellPackages.cabal-install
+            zlib
           ];
         };
       });
